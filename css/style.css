@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 Jun, 2020, 11:25:51 AM
+    Author     : Prince Chaurasiya
+*/
+
+body{
+    padding-top: 100px;
+    background-color: #efefff;
+}
+#banner-image{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+#banner-content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 14%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+#content{
+    min-height: 604px;
+}
+
+/*Below two command lines are written here just to make sure that a button can show different behaviour from a normal button.*/
+.button {
+    background-color: white;  
+    border: 2px solid #337ab7;
+    color: #337ab7;
+}
+.button:hover {
+    background-color: #337ab7;
+    border-color: #337ab7;
+    color: white;
+}
+
+/*Below two command lines are written here to show the different behaviour for a navbar-header.*/
+.navbar-header .navbar-brand {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    margin-top: 1px;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar-header .navbar-brand:hover {
+    background: #ddd;
+    color: black;
+}
